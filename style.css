@@ -130,6 +130,7 @@ h1.cascadiaText{
     top: 30px;
     font-size: small;
     color: rgb(86, 85, 83);
+    cursor: default;
 }
 .YoutubeButton button{
     background: transparent;
@@ -147,4 +148,5 @@ h1.youtubeText {
     top: 30px;
     font-size: small;
     color: rgb(86, 85, 83);
+    cursor:default;
 }
