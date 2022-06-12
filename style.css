@@ -8,7 +8,7 @@ html, body {
 .container {
     width: 100%;
     min-height:100vh;
-    background-image:url(images/MainBackround.jpg);
+    background-image:url(compresspng/MainBackround-min.png);
     background-position: center;
     background-size: cover;
     display: flex;
