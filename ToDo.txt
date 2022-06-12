@@ -1,0 +1,14 @@
+What I want on my landing page:
+
+
+I want quick acsess to:
+	My ToDo for the week
+		Able to edit the ToDo
+		Able to put a check mark
+		Have the check mark stay there
+	The websites I commonly use
+		Ability to edit those websites on the landing page.
+I want the landing page to be clean and slick
+I want it to have a backround image.
+A google search bar somewhere (although i normally dont use it lol) 
+		
