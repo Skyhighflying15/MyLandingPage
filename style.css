@@ -11,4 +11,47 @@
     background-image: url(images/MainBackround.jpg);
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/**Controls the Search bar **/
+.search-bar{
+    width: 100%;
+    max-width: 800px;
+    max-height: fit-content;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items:center;
+    border-radius: 100px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+/**Words**/
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: black;
+}
+::placeholder {
+    color: antiquewhite;
+}
+
+/**Search Button**/
+.search-bar button img{
+    width: 40px;
+}
+.search-bar button{
+    background: transparent;
+    border: 1;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border-color: antiquewhite;
+    cursor: pointer;
 }
