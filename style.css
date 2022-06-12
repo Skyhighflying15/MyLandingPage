@@ -1,13 +1,13 @@
-*{
+
+/**Only the full image, overrides padding**/
+html, body {
     margin: 0;
     padding: 0;
-}
-
+  }
 /**The Backround of the website**/
 .container {
     width: 100%;
-    min-height: 100vh;
-    padding: 5%;
+    min-height:100vh;
     background-image: url(images/MainBackround.jpg);
     background-position: center;
     background-size: cover;
@@ -21,12 +21,14 @@
     width: 100%;
     max-width: 800px;
     max-height: fit-content;
+    position: relative;
+    top: -200px;
     background: rgba(0, 0, 0, 0.2);
     display: flex;
-    align-items:center;
     border-radius: 100px;
-    padding: 10px 20px;
+    padding: 1px 20px;
     backdrop-filter: blur(4px) saturate(180%);
+    align-self: center;
 }
 /**Words**/
 .search-bar input {
@@ -34,24 +36,46 @@
     flex: 1;
     border: 0;
     outline: none;
-    padding: 24px 20px;
-    font-size: 20px;
+    padding: 20px 10px;
+    font-size: 18px;
     color: black;
+   font-family: 'Nunito', sans-serif;
 }
 ::placeholder {
     color: antiquewhite;
 }
-
 /**Search Button**/
 .search-bar button img{
-    width: 40px;
+    width: 20px;
 }
 .search-bar button{
     background: transparent;
     border: 1;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-color: antiquewhite;
     cursor: pointer;
+    align-self: center;
+}
+/**Canvas Button**/
+.canvasButton button{
+    background: transparent;
+    border: 0;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    left: -790px;
+    top: 40px;
+}
+.YoutubeButton button{
+    background: transparent;
+    border: 0;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    left: -700px;
+    top: 40px;
 }
