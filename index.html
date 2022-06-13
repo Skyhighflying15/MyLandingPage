@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!--Top of the tab and linking stuff-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,16 +12,26 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
 </head>
+<!--Whole Webpage-->
 <body>
+    <!-- The main backround and container for all contents-->
     <div class="container">
+        <!--Widgets-->
+        
+            <!--Google Search bar-->
         <form action="https://www.google.com/search" method="get" class="search-bar">
             <input type="text" placeholder="search google" name = "q">
             <button type="submit"><img src="compresspng/searchIcon60.png" alt=""></button>
         </form>
+        
+        <!--YouTube search bar-->
         <form action="https://www.youtube.com/results?search_query=" method="get" class="youtube-search-bar">
             <input type="text" placeholder="search youtube" name = "q">
             <button type="submit"><img src="compresspng/youtube.png" alt=""></button>
         </form>  
+        <canvas class="box"></canvas>
+        <!--Buttons-->
+            <!--Canvas-->
         <div class="canvasButton">  
             <button type="button"> 
                 <a href="https://cascadia.instructure.com/login/ldap">
@@ -28,16 +39,16 @@
                 </a>
             </button>
        <h1 class="cascadiaText">Cascadia</h1>
-    </div >
-    <div class="YoutubeButton">
-        <button type="button"> 
-            <a href="https://www.youtube.com/watch?v=cbuZfY2S2UQ">
+        </div >
+        <!--Youtube-->
+        <div class="YoutubeButton">
+            <button type="button"> 
+             <a href="https://www.youtube.com/watch?v=cbuZfY2S2UQ">
                 <img src="compresspng/youtube.png" alt="Coding Lofi" width="40px" height="40px">
             </a>
-        </button>
-        <h1 class="youtubeText">CodeLofi</h1>
+            </button>
+         <h1 class="youtubeText">CodeLofi</h1>
+        </div>
     </div>
-       
-          
 </body>
 </html>

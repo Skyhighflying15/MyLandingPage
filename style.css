@@ -13,7 +13,7 @@ html, body {
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex;
 
 }
 /**Search Boxes**/
@@ -149,4 +149,13 @@ h1.youtubeText {
     font-size: small;
     color: rgb(86, 85, 83);
     cursor:default;
+}
+/**Controls google calendar (currently just a canvas)**/
+.box {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    top: 230px;
+    left: -350px;
+    background-color: black;
 }
