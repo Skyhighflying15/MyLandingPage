@@ -12,12 +12,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
 </head>
-<!--Whole Webpage and backroundImg-->
-<body class="backround">
-    
-    <!-- Search Bars-->
-    <section class="SearchBars">
-        <!--Google Search bar-->
+<!--Whole Webpage-->
+<body>
+    <!-- The main backround and container for all contents-->
+    <div class="container">
+        <!--Widgets-->
+        
+            <!--Google Search bar-->
         <form action="https://www.google.com/search" method="get" class="search-bar">
             <input type="text" placeholder="search google" name = "q">
             <button type="submit"><img src="compresspng/searchIcon60.png" alt=""></button>
@@ -27,11 +28,14 @@
         <form action="https://www.youtube.com/results?search_query=" method="get" class="youtube-search-bar">
             <input type="text" placeholder="search youtube" name = "q">
             <button type="submit"><img src="compresspng/youtube.png" alt=""></button>
-        </form> 
-    </section>
-    <!--Buttons-->
-    <section class="Buttons">
-        <!--Canvas-->
+        </form>  
+        <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%23E67C73&ctz=America%2FLos_Angeles&mode=MONTH&showTz=0&showTabs=1&showPrint=0&showTitle=0&showNav=1&showDate=1&showCalendars=0&src=c2t5aGlnaGZseWluZzE1QGdtYWlsLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679&color=%230B8043" 
+            style="border:solid 1px #777" 
+            width="700" height="400" 
+            frameborder="0" 
+            scrolling="no"></iframe>
+        <!--Buttons-->
+            <!--Canvas-->
         <div class="canvasButton">  
             <button type="button"> 
                 <a href="https://cascadia.instructure.com/login/ldap">
@@ -49,16 +53,6 @@
             </button>
          <h1 class="youtubeText">CodeLofi</h1>
         </div>
-        <!--Tyler Wallace Stats Link-->
-        <div class="StatButton">
-            <button type="button"> 
-                <a href="https://www.youtube.com/watch?v=KBhD6WBjp2I&list=PL9J7RpUf2cG8HQPBC77EIqjVhzcVUuNVd">
-                   <img src="images/statistics.png" alt="Tyler Wallace Statistics" width="40px" height="40px">
-               </a>
-               </button>
-            <h1 class="MathText">TW Stats</h1>
-        </div>
-    </section>
-            
+    </div>
 </body>
 </html>

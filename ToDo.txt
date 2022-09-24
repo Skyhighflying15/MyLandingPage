@@ -9,6 +9,6 @@ I want quick acsess to:
 	The websites I commonly use
 		Ability to edit those websites on the landing page.
 I want the landing page to be clean and slick
-I want it to have a backround image.
 A google search bar somewhere (although i normally dont use it lol) 
+Drop down menu that has links i use but not often (so a row of main buttons and then one button that links to others)
 		
