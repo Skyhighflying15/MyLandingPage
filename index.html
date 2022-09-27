@@ -59,6 +59,23 @@
             <h1 class="MathText">TW Stats</h1>
         </div>
     </section>
-            
+    <!--Stock embed (to generate go here: https://services.stockdio.com/#!i_Visualization_SingleQuote_04)-->
+   <!-- <section class="stocks">
+        <script>
+            if (typeof(stockdio_events) == "undefined") {
+               stockdio_events = true;
+               var stockdio_eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+               var stockdio_eventer = window[stockdio_eventMethod];
+               var stockdio_messageEvent = stockdio_eventMethod == "attachEvent" ? "onmessage" : "message";
+               stockdio_eventer(stockdio_messageEvent, function (e) {
+                  if (typeof(e.data) != "undefined" && typeof(e.data.method) != "undefined") {
+                     eval(e.data.method);
+                  }
+               },false);
+            }
+         </script>
+         <iframe class="Scroll" id='st_86f399831d6a422a9a75cec506488a23' frameBorder='0' scrolling='no' width='260' height='100%' src='https://api.stockdio.com/visualization/financial/charts/v1/Ticker?app-key=8C1DB606440145038B5C094C6452320E&symbols=MFA;%20MPLX;%20PFFA;%20INTC;AXL&scroll=yes&palette=Financial-Light&layoutType=9&font=Nunito&googleFont=true&backgroundColor=F0C2D8&onload=st_86f399831d6a422a9a75cec506488a23'></iframe>
+    </section>
+    -->
 </body>
 </html>

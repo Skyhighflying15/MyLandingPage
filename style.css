@@ -19,24 +19,15 @@ html, body {
     width: 0px;
     background: transparent;
 }
-/**Search Boxes**/
-.SearchBars {
-    width: 105%;
-    height: auto;
-    align-content: space-evenly;
-    margin-top: 30%;
-    margin-left: 50%;
-}
-.Buttons {
-    width: 100%;
-    height: auto;
-    align-content: center;
-    margin-top: 5%;
-    margin-left: 50%;
-    display: flex;
-    justify-content: center;
-    justify-self: center;
-}
+/**Search Bars**/
+    .SearchBars {
+        width: 105%;
+        height: auto;
+        align-content: space-evenly;
+        margin-top: 30%;
+        margin-left: 50%;
+    }
+
 /**Controls the overall google search bar **/
 .search-bar{
     max-width: 800vh;
@@ -133,12 +124,23 @@ background: linear-gradient(90deg, rgba(112,239,235,1) 0%,
     
 }
 /**Lower Buttons**/
+.Buttons {
+    width: 100%;
+    height: auto;
+    align-content: center;
+    margin-top: 5%;
+    margin-left: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 14%);
+    grid-auto-flow: dense;
+    justify-content: center;
+    justify-self: center;
+}
     /**Canvas Button**/
     .canvasButton{
         display: grid;
         justify-content: center;
-        padding-left: 3%;
-        padding-right: 3%;
+       
     }
     .canvasButton button{
         background: transparent;
@@ -160,8 +162,6 @@ background: linear-gradient(90deg, rgba(112,239,235,1) 0%,
     .YoutubeButton{
         display: grid;
         justify-content: center;
-        padding-left: 3%;
-        padding-right: 3%;
     }
     .YoutubeButton button{
         background: transparent;
@@ -182,8 +182,6 @@ background: linear-gradient(90deg, rgba(112,239,235,1) 0%,
     .StatButton{
         display: grid;
         justify-content: center;
-        padding-left: 3%;
-        padding-right: 3%;
 
     }
     .StatButton button{
@@ -202,3 +200,20 @@ background: linear-gradient(90deg, rgba(112,239,235,1) 0%,
         cursor:default;
 
     }
+/**Stocks**/
+/**
+.stocks{
+   width: 86%;
+   margin-top: 5%;
+   margin-left: 50%;
+   display: flex;
+   justify-content: center;
+}
+.Scroll{
+    margin-left: 14%;
+    margin-top: 12%;
+    border-radius:20px;
+	overflow:hidden;
+}
+**/
+
