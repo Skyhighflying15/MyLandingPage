@@ -1,18 +1,17 @@
 
 /**Only the full image, overrides padding**/
-html, body {
+* {
     margin: 0;
     padding: 0;
   }
 /**The Backround of the website**/
-.backround {
+body {
     width: 50%;
     min-height:80vh;
     background-image:url(compresspng/MainBackround-min.png);
     background-position: center;
     background-size: cover;
-    background-color: rgb(223, 165, 190);
-
+    background-color: rgb(241, 178, 205);
 }
 /**Remove the scrollbar**/
 ::-webkit-scrollbar {
